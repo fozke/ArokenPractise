@@ -1,0 +1,119 @@
+html , body {
+  font-family: Manrope,sans-serif;
+  color: #1E1B1B;
+}
+
+.wrapper {
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1950px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  transition: 0.5s;
+}
+
+.button:hover {
+  transform: scale(1.08);
+}
+
+.logo {
+}
+
+/* --------------------------------------- */
+
+
+.header {
+}
+
+.header__top {
+}
+
+.header__top-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 0 ;
+}
+
+.header__logo {
+  margin-left: 320px;
+}
+
+.header__nav {
+  margin-left: auto;
+}
+
+.header__nav-list {
+  display: flex;
+}
+
+.header__nav-item {
+  margin-left: 40px;
+}
+
+.header__nav-item:first-child{
+  margin-left: 0;
+}
+
+.box{
+  margin-left: 64px; 
+}
+
+.header__nav-link {
+  font-weight: 600;
+  line-height: 28px;
+  white-space: nowrap;
+  margin-right: 32px;
+}
+
+.header__nav-link:hover {
+  color: red;
+  transition: all 1s;
+}
+
+.header__top-line {
+}
+
+.header__btn-box {
+  display: flex;
+  align-items: center;
+  margin-left: 32px;
+}
+
+
+.header__top-btn {
+  white-space: nowrap;
+  margin-right: 14px;
+}
+
+.header__user-text {
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.header__user-phone {
+  white-space: nowrap;
+  font-size: 18px;
+  line-height: 175%;
+  transition:all 1.5s;
+}
+
+.header__user-phone:hover {
+  color:blue
+}
+
+.header__body {
+}
+
+/* ---------------------------------------------------------- */
+
+
